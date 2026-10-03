@@ -1,0 +1,43 @@
+# ── 构建产物 ──────────────────────────
+build/
+build-*/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.app/
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+*.qm
+
+# ── Qt Creator / IDE 本机状态 ─────────
+# CMakeLists.txt.user* 是 Qt Creator 保存的本机配置，不该进仓库
+*.user
+*.user.*
+*.autosave
+.idea/
+.vscode/
+
+# ── 资源包 ────────────────────────────
+# res/ 约 20 MB，由 res.zip 解压得到；res.zip 放在 Releases 里分发，不入库
+res/
+res.zip
+
+# ── 系统与临时文件 ────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*~
